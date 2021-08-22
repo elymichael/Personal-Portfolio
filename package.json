@@ -1,0 +1,17 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio for Learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express.js": "^1.0.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12"
+  }
+}
