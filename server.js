@@ -49,9 +49,9 @@ app.post('/mail', (req, res) => {
     transporter.sendMail(mailOptions, (err, result) => {
         if (err){
             console.log(err);
-            res.json('opps! it seems like some error occured plz. try again.')
+            res.json('opps! it seems like some error occured please. try again.')
         } else{
-            res.json('thanks for e-mailing me. I will reply to you within 2 working days');
+            res.json('thanks for e-mailing me. I will reply to you within 24 hours.');
         }
     })
 })
